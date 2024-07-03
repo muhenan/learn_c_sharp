@@ -1,0 +1,34 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore ReSharper files
+_ReSharper*/
+
+# Ignore test results
+TestResults/
+
+# Ignore build logs
+*.log
+
+# Ignore publish profiles
+*.pubxml
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
