@@ -1,4 +1,5 @@
 ﻿using Src.Async;
+using Src.LINQ;
 
 class Program
 {
@@ -7,8 +8,11 @@ class Program
         Console.WriteLine("Hello, World!");
 
         // Synchronous method call
-        MySync.Run();
+        // MySync.Run();
         // Asynchronous method call
-        await MyAsync.Run();
+        // await MyAsync.Run();
+
+
+        MyLINQ.Run();
     }
 }
